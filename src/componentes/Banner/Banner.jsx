@@ -20,17 +20,17 @@ const Banner = () => {
         }
       >
         <div className={styles.banner_gradient}>
-        <Separator height={"15vh"} />
+        <Separator height={"5vh"} />
 
         <div className={styles.banner_title}>
           <h1>{loading ? "Loading..." : randomMovie?.title}</h1>
         </div>
-        <Separator height={"4vh"} />
+        <Separator height={"2vh"} />
 
         <div className={styles.banner_overview}>
           <h2>{loading ? "Loading..." : randomMovie?.overview}</h2>
         </div>
-        <Separator height={"4vh"} />
+        <Separator height={"2vh"} />
         <div className={styles.banner_buttons}>
           <button
             className={styles.banner_button}

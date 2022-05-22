@@ -30,10 +30,10 @@
 
 .banner_overview {
   transition: ease-in-out 0.5s;
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
   margin-left: 2%;
-  margin-right: 2%;
+  margin-right: 5%;
 }
 
 .banner_buttons {
@@ -46,7 +46,7 @@
 }
 
 .banner_buttons button:nth-child(2) {
-  margin-left: 2em;
+  margin-left: 2rem;
 }
 
 .banner_button {
@@ -82,7 +82,7 @@
     margin-bottom: 0.75rem;
   }
   .banner_overview {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-bottom: 0.65rem;
   }
 }
@@ -96,7 +96,28 @@
     margin-bottom: 0.5rem;
   }
   .banner_overview {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner_container {
+    height: 100vh;
+  }
+  .banner_title {
+    font-size: 1.75rem;
+    margin-bottom: 0.25rem;
+  }
+  .banner_overview {
+    font-size: 0.6rem;
+    margin-bottom: 0.25rem;
+  }
+  .banner_buttons button:nth-child(2) {
+    margin-left: 0.8rem;
+  }
+  .banner_button {
+    width: 160px;
+    font-size: 1.0rem;
   }
 }

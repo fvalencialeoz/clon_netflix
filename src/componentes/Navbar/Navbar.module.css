@@ -59,12 +59,23 @@
   @media (max-width: 960px) {
     .nav_logo {
       margin-left:0.3em;
+      height: 1.5em;
     }
     .nav_menu {
       margin-left:0.6em;
     }
     .nav_item {
       margin-left:0.8em;
-    }
- 
+    } 
   }
+
+  @media (max-width: 600px) {
+    .nav_logo {
+    margin-left:0.1em;
+    height: 1em;
+  }
+  .nav_item {
+    font-size: 11px;
+    margin-left:0.4em;
+  } 
+}
